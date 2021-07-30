@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Jolly+Lodger&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap');
+body{
+    background: rgb(221, 5, 5);
+background: -moz-radial-gradient(circle, rgba(255,10,10,1) 26%, rgba(180,58,142,1) 93%);
+background: -webkit-radial-gradient(circle, rgb(121, 182, 80) 26%, rgba(180,58,142,1) 93%);
+background: radial-gradient(circle, rgb(58, 23, 124) 26%, rgba(180,58,142,1) 93%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0a0a",endColorstr="#b43a8e",GradientType=1);
+}
+#list{
+    margin: 0 auto;
+    width: 110  0px;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item{
+    font-family: 'Jolly Lodger', cursive;
+    padding: 5px;
+   margin-top: 25px;
+    background-color:#fcccfc;
+    box-sizing: content-box;
+    width: 17%;
+    list-style-type: none;
+    border-radius: 20px;
+   border:3px double #ccc;
+}
+img{
+    width: 100%;
+    border-radius: 15px;
+    
+}
+time{
+font-size: 10px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+h5{
+    font-weight: bold;
+}
